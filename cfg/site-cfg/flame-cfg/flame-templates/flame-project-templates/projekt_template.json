@@ -2,7 +2,7 @@
     "DefaultWorkspaceName": "",
     "Default": {
         "Name": "Default",
-        "ProjectDir": "/var/opt/Autodesk/flame/projects/<project name>",
+        "ProjectDir": "/hosts/<host name>/var/opt/Autodesk/flame/projects/<project name>",
         "SetupDir": "<project home>/setups",
         "MediaDir": "<project home>/media",
         "Resolution": {

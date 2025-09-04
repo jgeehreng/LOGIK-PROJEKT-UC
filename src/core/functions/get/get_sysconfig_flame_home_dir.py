@@ -32,7 +32,7 @@ def get_sysconfig_flame_home_dir() -> str:
         Default home directory path string
     """
     sysconfig_cfg_path = GetApplicationPaths.SYSCONFIG_CFG
-    default_path = "/var/opt/Autodesk/flame/projects/<project name>"
+    default_path = "/hosts/<host name>/var/opt/Autodesk/flame/projects/<project name>"
   
     try:
         with open(sysconfig_cfg_path, 'r') as f:

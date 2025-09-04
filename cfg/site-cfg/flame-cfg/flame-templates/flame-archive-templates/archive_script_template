@@ -221,7 +221,7 @@ echo -e "the_projekt_job_directory:"
 echo -e "  ${the_projekt_job_directory}"
 
 # set the path for the the_projekt_job_flame_archive_directory
-the_projekt_job_flame_archive_directory="${the_projekt_job_directory}/flame/archive"
+the_projekt_job_flame_archive_directory="${the_projekt_job_directory}/DOCS/logik-projekt/flame/archive"
 
 # echo ${the_projekt_job_flame_archive_directory} to the shell
 echo -e "the_projekt_job_flame_archive_directory:"

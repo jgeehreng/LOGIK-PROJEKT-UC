@@ -173,7 +173,7 @@
                                 "Bookmarks": [
                                     {
                                         "Bookmark": "backup-scripts",
-                                        "Path": "/PROJEKTS/<project nickname>/backup/backup-scripts",
+                                        "Path": "/PROJEKTS/<project nickname>/DOCS/logik-projekt/backup/backup-scripts",
                                         "Visibility": "Global"
                                     }
                                 ]
@@ -758,17 +758,17 @@
                                 "Bookmarks": [
                                     {
                                         "Bookmark": "archive",
-                                        "Path": "/PROJEKTS/<project nickname>/flame/archive",
+                                        "Path": "/PROJEKTS/<project nickname>/DOCS/logik-projekt/flame/archive",
                                         "Visibility": "Global"
                                     },
                                     {
                                         "Bookmark": "iterations",
-                                        "Path": "/PROJEKTS/<project nickname>/flame/iterations",
+                                        "Path": "/PROJEKTS/<project nickname>/DOCS/logik-projekt/flame/iterations",
                                         "Visibility": "Global"
                                     },
                                     {
                                         "Bookmark": "setups",
-                                        "Path": "/PROJEKTS/<project nickname>/flame/setups",
+                                        "Path": "/PROJEKTS/<project nickname>/DOCS/logik-projekt/flame/setups",
                                         "Visibility": "Global"
                                     }
                                 ]

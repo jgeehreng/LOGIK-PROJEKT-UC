@@ -1,0 +1,596 @@
+{
+  "metadata": {
+    "created_at": "2025-09-04T08:45:14.871520",
+    "created_by": "directory_structure_to_json",
+    "version": "1.0"
+  },
+  "source": {
+    "original_path": "/Volumes/Stark/vfx/UC_Jobs/uc_template",
+    "original_name": "uc_template",
+    "original_depth": 5,
+    "root_directory": "uc_template"
+  },
+  "analysis": {
+    "timestamp": "2025_09_04-08_45_14",
+    "total_subdirectories": 72,
+    "processed_subdirectories": 72
+  },
+  "subdirectories": [
+    {
+      "path": "AUDIO",
+      "name": "AUDIO",
+      "depth": 1,
+      "hasChildren": true,
+      "parent": "projekt directories",
+      "type": "directory"
+    },
+    {
+      "path": "AUDIO/2025-09-04_Vendor Name",
+      "name": "2025-09-04_Vendor Name",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "AUDIO",
+      "type": "directory"
+    },
+    {
+      "path": "CONFORM_PREP",
+      "name": "CONFORM_PREP",
+      "depth": 1,
+      "hasChildren": true,
+      "parent": "projekt directories",
+      "type": "directory"
+    },
+    {
+      "path": "CONFORM_PREP/GRAPHICS",
+      "name": "GRAPHICS",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "CONFORM_PREP",
+      "type": "directory"
+    },
+    {
+      "path": "CONFORM_PREP/OFFLINE",
+      "name": "OFFLINE",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "CONFORM_PREP",
+      "type": "directory"
+    },
+    {
+      "path": "CONFORM_PREP/XML",
+      "name": "XML",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "CONFORM_PREP",
+      "type": "directory"
+    },
+    {
+      "path": "DELIVERABLES",
+      "name": "DELIVERABLES",
+      "depth": 1,
+      "hasChildren": false,
+      "parent": "projekt directories",
+      "type": "directory"
+    },
+    {
+      "path": "DOCS",
+      "name": "DOCS",
+      "depth": 1,
+      "hasChildren": true,
+      "parent": "projekt directories",
+      "type": "directory"
+    },
+    {
+      "path": "DOCS/FLAME_ARCHIVE",
+      "name": "FLAME_ARCHIVE",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "DOCS",
+      "type": "directory"
+    },
+    {
+      "path": "DOCS/Fonts",
+      "name": "Fonts",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "DOCS",
+      "type": "directory"
+    },
+    {
+      "path": "DOCS/Inventory",
+      "name": "Inventory",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "DOCS",
+      "type": "directory"
+    },
+    {
+      "path": "DOCS/PrePro",
+      "name": "PrePro",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "DOCS",
+      "type": "directory"
+    },
+    {
+      "path": "DOCS/Scripts_Boards",
+      "name": "Scripts_Boards",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "DOCS",
+      "type": "directory"
+    },
+    {
+      "path": "DOCS/Slates",
+      "name": "Slates",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "DOCS",
+      "type": "directory"
+    },
+    {
+      "path": "DOCS/VFX_Shot_List",
+      "name": "VFX_Shot_List",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "DOCS",
+      "type": "directory"
+    },
+    {
+      "path": "FOOTAGE",
+      "name": "FOOTAGE",
+      "depth": 1,
+      "hasChildren": true,
+      "parent": "projekt directories",
+      "type": "directory"
+    },
+    {
+      "path": "FOOTAGE/AI",
+      "name": "AI",
+      "depth": 2,
+      "hasChildren": true,
+      "parent": "FOOTAGE",
+      "type": "directory"
+    },
+    {
+      "path": "FOOTAGE/AI/DALL-E",
+      "name": "DALL-E",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "AI",
+      "type": "directory"
+    },
+    {
+      "path": "FOOTAGE/CLIENT_ELEMENTS",
+      "name": "CLIENT_ELEMENTS",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "FOOTAGE",
+      "type": "directory"
+    },
+    {
+      "path": "FOOTAGE/CLIENT_REF",
+      "name": "CLIENT_REF",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "FOOTAGE",
+      "type": "directory"
+    },
+    {
+      "path": "FOOTAGE/COLOR_PREP",
+      "name": "COLOR_PREP",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "FOOTAGE",
+      "type": "directory"
+    },
+    {
+      "path": "FOOTAGE/DAILIES",
+      "name": "DAILIES",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "FOOTAGE",
+      "type": "directory"
+    },
+    {
+      "path": "FOOTAGE/GRADE",
+      "name": "GRADE",
+      "depth": 2,
+      "hasChildren": true,
+      "parent": "FOOTAGE",
+      "type": "directory"
+    },
+    {
+      "path": "FOOTAGE/GRADE/2025-09-04_Vendor Name",
+      "name": "2025-09-04_Vendor Name",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "GRADE",
+      "type": "directory"
+    },
+    {
+      "path": "FOOTAGE/PREVIOUS_MASTERS",
+      "name": "PREVIOUS_MASTERS",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "FOOTAGE",
+      "type": "directory"
+    },
+    {
+      "path": "FOOTAGE/RAW",
+      "name": "RAW",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "FOOTAGE",
+      "type": "directory"
+    },
+    {
+      "path": "FOOTAGE/UNIQUE_STOCK_ELEMENTS",
+      "name": "UNIQUE_STOCK_ELEMENTS",
+      "depth": 2,
+      "hasChildren": false,
+      "parent": "FOOTAGE",
+      "type": "directory"
+    },
+    {
+      "path": "FROM_FLAME",
+      "name": "FROM_FLAME",
+      "depth": 1,
+      "hasChildren": false,
+      "parent": "projekt directories",
+      "type": "directory"
+    },
+    {
+      "path": "MASTERS",
+      "name": "MASTERS",
+      "depth": 1,
+      "hasChildren": false,
+      "parent": "projekt directories",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS",
+      "name": "SHOTS",
+      "depth": 1,
+      "hasChildren": true,
+      "parent": "projekt directories",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common",
+      "name": "Common",
+      "depth": 2,
+      "hasChildren": true,
+      "parent": "SHOTS",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/2D",
+      "name": "2D",
+      "depth": 3,
+      "hasChildren": true,
+      "parent": "Common",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/2D/AE",
+      "name": "AE",
+      "depth": 4,
+      "hasChildren": true,
+      "parent": "2D",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/2D/AE/Renders",
+      "name": "Renders",
+      "depth": 5,
+      "hasChildren": false,
+      "parent": "AE",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/2D/Mocha",
+      "name": "Mocha",
+      "depth": 4,
+      "hasChildren": true,
+      "parent": "2D",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/2D/Mocha/Exports",
+      "name": "Exports",
+      "depth": 5,
+      "hasChildren": false,
+      "parent": "Mocha",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/2D/Nuke",
+      "name": "Nuke",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "2D",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/2D/Paint",
+      "name": "Paint",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "2D",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/2D/Photoshop",
+      "name": "Photoshop",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "2D",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/2D/Roto",
+      "name": "Roto",
+      "depth": 4,
+      "hasChildren": true,
+      "parent": "2D",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/2D/Roto/Exports",
+      "name": "Exports",
+      "depth": 5,
+      "hasChildren": false,
+      "parent": "Roto",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/3D",
+      "name": "3D",
+      "depth": 3,
+      "hasChildren": true,
+      "parent": "Common",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/3D/Anim",
+      "name": "Anim",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "3D",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/3D/Assets",
+      "name": "Assets",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "3D",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/3D/FX",
+      "name": "FX",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "3D",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/3D/Lighting",
+      "name": "Lighting",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "3D",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/3D/Texturing",
+      "name": "Texturing",
+      "depth": 4,
+      "hasChildren": false,
+      "parent": "3D",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/3D/Tracking",
+      "name": "Tracking",
+      "depth": 4,
+      "hasChildren": true,
+      "parent": "3D",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/3D/Tracking/PFTrack",
+      "name": "PFTrack",
+      "depth": 5,
+      "hasChildren": false,
+      "parent": "Tracking",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/3D/Tracking/Syntheyes",
+      "name": "Syntheyes",
+      "depth": 5,
+      "hasChildren": false,
+      "parent": "Tracking",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/Elements",
+      "name": "Elements",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "Common",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/Plates",
+      "name": "Plates",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "Common",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/PreRenders",
+      "name": "PreRenders",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "Common",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/RedPens",
+      "name": "RedPens",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "Common",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/References",
+      "name": "References",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "Common",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/Renders",
+      "name": "Renders",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "Common",
+      "type": "directory"
+    },
+    {
+      "path": "SHOTS/Common/Setups",
+      "name": "Setups",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "Common",
+      "type": "directory"
+    },
+    {
+      "path": "VENDORS",
+      "name": "VENDORS",
+      "depth": 1,
+      "hasChildren": true,
+      "parent": "projekt directories",
+      "type": "directory"
+    },
+    {
+      "path": "VENDORS/IN",
+      "name": "IN",
+      "depth": 2,
+      "hasChildren": true,
+      "parent": "VENDORS",
+      "type": "directory"
+    },
+    {
+      "path": "VENDORS/IN/CG",
+      "name": "CG",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "IN",
+      "type": "directory"
+    },
+    {
+      "path": "VENDORS/IN/COMP",
+      "name": "COMP",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "IN",
+      "type": "directory"
+    },
+    {
+      "path": "VENDORS/IN/DESIGN",
+      "name": "DESIGN",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "IN",
+      "type": "directory"
+    },
+    {
+      "path": "VENDORS/IN/PAINT",
+      "name": "PAINT",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "IN",
+      "type": "directory"
+    },
+    {
+      "path": "VENDORS/IN/ROTO",
+      "name": "ROTO",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "IN",
+      "type": "directory"
+    },
+    {
+      "path": "VENDORS/IN/TRACKING",
+      "name": "TRACKING",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "IN",
+      "type": "directory"
+    },
+    {
+      "path": "VENDORS/OUT",
+      "name": "OUT",
+      "depth": 2,
+      "hasChildren": true,
+      "parent": "VENDORS",
+      "type": "directory"
+    },
+    {
+      "path": "VENDORS/OUT/CG",
+      "name": "CG",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "OUT",
+      "type": "directory"
+    },
+    {
+      "path": "VENDORS/OUT/COMP",
+      "name": "COMP",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "OUT",
+      "type": "directory"
+    },
+    {
+      "path": "VENDORS/OUT/DESIGN",
+      "name": "DESIGN",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "OUT",
+      "type": "directory"
+    },
+    {
+      "path": "VENDORS/OUT/PAINT",
+      "name": "PAINT",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "OUT",
+      "type": "directory"
+    },
+    {
+      "path": "VENDORS/OUT/ROTO",
+      "name": "ROTO",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "OUT",
+      "type": "directory"
+    },
+    {
+      "path": "VENDORS/OUT/TRACKING",
+      "name": "TRACKING",
+      "depth": 3,
+      "hasChildren": false,
+      "parent": "OUT",
+      "type": "directory"
+    }
+  ]
+}

@@ -1,16 +1,16 @@
 {
   "PROJEKT Configurations": [
     {
+      "PROJEKT Configuration Name": "uc_template",
+      "PROJEKT Filesystem Tree": "pref/site-prefs/custom-prefs/uc_template/filesystem-tree.json",
+      "PROJEKT Flame Workspace": "pref/site-prefs/custom-prefs/uc_template/flame-workspace.json",
+      "PROJEKT Flame Bookmarks": "pref/site-prefs/custom-prefs/uc_template/cf_bookmarks.json"
+  },
+    {
       "PROJEKT Configuration Name": "logik-projekt",
       "PROJEKT Filesystem Tree": "pref/site-prefs/default-prefs/logik-projekt-prefs/filesystem-tree.json",
       "PROJEKT Flame Workspace": "pref/site-prefs/default-prefs/logik-projekt-prefs/flame-workspace.json",
       "PROJEKT Flame Bookmarks": "pref/site-prefs/default-prefs/logik-projekt-prefs/cf_bookmarks.json"
-    },
-    {
-      "PROJEKT Configuration Name": "123-example",
-      "PROJEKT Filesystem Tree": "pref/site-prefs/custom-prefs/123-example/filesystem-tree.json",
-      "PROJEKT Flame Workspace": "pref/site-prefs/custom-prefs/123-example/flame-workspace.json",
-      "PROJEKT Flame Bookmarks": "pref/site-prefs/custom-prefs/123-example/cf_bookmarks.json"
-    }
+  } 
   ]
 }

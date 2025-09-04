@@ -64,7 +64,7 @@ def get_calculated_name(serial: str, client: str, campaign: str) -> str:
 
     # --- RECIPE 1: Serial, lowercase client, lowercase campaign ---
     # This is the default.
-    calculated_name = f"{s_serial}_{s_client.lower()}_{s_campaign.lower()}"
+    # calculated_name = f"{s_serial}_{s_client.lower()}_{s_campaign.lower()}"
 
     # --- RECIPE 2: Serial, UPPERCASE client, UPPERCASE campaign ---
     # To use this recipe, remove the '#' from the line below and add a '#'
@@ -96,6 +96,9 @@ def get_calculated_name(serial: str, client: str, campaign: str) -> str:
     # --- RECIPE 9: Title Case client, Title Case campaign, serial ---
     # calculated_name = f"{s_client.title()}_{s_campaign.title()}_{s_serial}"
 
+    # --- RECIPE 10: Serial, client, campaign ---
+    # Uppercut default.
+    calculated_name = f"{s_serial}_{s_client}_{s_campaign}"
 
     # --- Final Sanitization (do not modify below this line) ---
     # Replace double underscores (from empty parts) with single underscores
