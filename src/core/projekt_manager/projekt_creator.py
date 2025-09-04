@@ -122,14 +122,14 @@ class ProjektCreator:
             os.path.dirname(target_root_dir),
             os.path.basename(target_root_dir)
         )
-        iterations_dir = (
-            os.path.join(
-                config.logik_projekt_path,
-                "flame",
-                "iterations"
-            )
-        )
-        path_utils.create_directory(iterations_dir)
+        # iterations_dir = (
+        #     os.path.join(
+        #         config.logik_projekt_path,
+        #         "flame",
+        #         "iterations"
+        #     )
+        # )
+        # path_utils.create_directory(iterations_dir)
 
         # 5. Generate Flame Project XML
         xml_template_path = (
@@ -162,12 +162,12 @@ class ProjektCreator:
             config.flame_projekt_setups_dir
         )
 
-        # 8. Create Symbolic Links
-        create_flame_symbolic_links(
-            config.logik_projekt_path,
-            config.flame_projekt_setups_dir,
-            config.current_workstation
-        )
+        # # 8. Create Symbolic Links
+        # create_flame_symbolic_links(
+        #     config.logik_projekt_path,
+        #     config.flame_projekt_setups_dir,
+        #     config.current_workstation
+        # )
 
         # 9. Copy Site Presets
         copy_flame_presets(
@@ -196,34 +196,34 @@ class ProjektCreator:
         except Exception as e:
             logger.error(f"Failed to copy Flame bookmarks: {e}")
 
-        # 12. Create Archive Script
-        create_flame_archive_script(config.__dict__)
+        # # 12. Create Archive Script
+        # create_flame_archive_script(config.__dict__)
 
-        # 13. Create Backup Script
-        template_dir = os.path.join(
-            path_utils.get_repository_root_dir(),
-            "cfg",
-            "site-cfg",
-            "logik-projekt-cfg",
-            "logik-projekt-templates"
-        )
-        backup_template_path = os.path.join(
-            template_dir,
-            "rsync-backup-templates",
-            "backup_template"
-        )
-        backup_script_dir = os.path.join(
-            config.logik_projekt_path,
-            "backup",
-            "backup-scripts",
-            config.current_workstation
-        )
-        path_utils.create_directory(backup_script_dir)
-        create_projekt_backup_script(
-            config.__dict__,
-            backup_template_path,
-            backup_script_dir
-        )
+        # # 13. Create Backup Script
+        # template_dir = os.path.join(
+        #     path_utils.get_repository_root_dir(),
+        #     "cfg",
+        #     "site-cfg",
+        #     "logik-projekt-cfg",
+        #     "logik-projekt-templates"
+        # )
+        # backup_template_path = os.path.join(
+        #     template_dir,
+        #     "rsync-backup-templates",
+        #     "backup_template"
+        # )
+        # backup_script_dir = os.path.join(
+        #     config.logik_projekt_path,
+        #     "backup",
+        #     "backup-scripts",
+        #     config.current_workstation
+        # )
+        # path_utils.create_directory(backup_script_dir)
+        # create_projekt_backup_script(
+        #     config.__dict__,
+        #     backup_template_path,
+        #     backup_script_dir
+        # )
 
         # 15. Create Flame Startup Script
         create_flame_startup_script(config.flame_projekt_setups_dir, config.logik_projekt_config_workspace)

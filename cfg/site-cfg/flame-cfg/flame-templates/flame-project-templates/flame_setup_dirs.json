@@ -33,6 +33,7 @@
         "axis",
         "batch",
         "batch/flame",
+        "batch/flame/iterations",
         "batch/log",
         "batch/pref",
         "batchclip",
