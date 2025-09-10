@@ -125,6 +125,8 @@ class ProjektCreator:
         # iterations_dir = (
         #     os.path.join(
         #         config.logik_projekt_path,
+        #         "DOCS",
+        #         "logik-projekt",
         #         "flame",
         #         "iterations"
         #     )
