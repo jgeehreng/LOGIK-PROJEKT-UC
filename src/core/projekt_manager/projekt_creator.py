@@ -65,6 +65,9 @@ from src.core.functions.get.get_flame_bookmarks_path import (
 from src.core.functions.copy.copy_flame_bookmarks import (
     copy_flame_bookmarks
 )
+from src.core.functions.copy.copy_init_config import (
+    copy_init_config
+)
 from src.core.functions.create.create_flame_archive_script import (
     create_flame_archive_script
 )
@@ -198,37 +201,40 @@ class ProjektCreator:
         except Exception as e:
             logger.error(f"Failed to copy Flame bookmarks: {e}")
 
-        # # 12. Create Archive Script
-        # create_flame_archive_script(config.__dict__)
+        # 12. Create Archive Script
+        create_flame_archive_script(config.__dict__)
 
-        # # 13. Create Backup Script
-        # template_dir = os.path.join(
-        #     path_utils.get_repository_root_dir(),
-        #     "cfg",
-        #     "site-cfg",
-        #     "logik-projekt-cfg",
-        #     "logik-projekt-templates"
-        # )
-        # backup_template_path = os.path.join(
-        #     template_dir,
-        #     "rsync-backup-templates",
-        #     "backup_template"
-        # )
-        # backup_script_dir = os.path.join(
-        #     config.logik_projekt_path,
-        #     "backup",
-        #     "backup-scripts",
-        #     config.current_workstation
-        # )
-        # path_utils.create_directory(backup_script_dir)
-        # create_projekt_backup_script(
-        #     config.__dict__,
-        #     backup_template_path,
-        #     backup_script_dir
-        # )
+        # 13. Create Backup Script
+        template_dir = os.path.join(
+            path_utils.get_repository_root_dir(),
+            "cfg",
+            "site-cfg",
+            "logik-projekt-cfg",
+            "logik-projekt-templates"
+        )
+        backup_template_path = os.path.join(
+            template_dir,
+            "rsync-backup-templates",
+            "backup_template"
+        )
+        backup_script_dir = os.path.join(
+            config.logik_projekt_path,
+            "backup",
+            "backup-scripts",
+            config.current_workstation
+        )
+        path_utils.create_directory(backup_script_dir)
+        create_projekt_backup_script(
+            config.__dict__,
+            backup_template_path,
+            backup_script_dir
+        )
 
         # 15. Create Flame Startup Script
-        create_flame_startup_script(config.flame_projekt_setups_dir, config.logik_projekt_config_workspace)
+        create_flame_startup_script(
+            config.flame_projekt_setups_dir,
+            config.logik_projekt_config_workspace
+        )
 
         # 16. Create Flame Launcher Script
         launcher_script_path = create_flame_launcher_script(
@@ -281,13 +287,19 @@ class ProjektCreator:
                 process.stdout.close()
                 return_code = process.wait()
                 if return_code:
-                    raise subprocess.CalledProcessError(return_code, launcher_script_path)
+                    raise subprocess.CalledProcessError(
+                        return_code,
+                        launcher_script_path
+                    )
                 logger.info("Flame launched successfully.")
             except (subprocess.CalledProcessError, FileNotFoundError) as e:
                 logger.error(f"Failed to launch Flame: {e}")
 
         # 20. Copy Current Session Files
-        copy_current_session_files(config.logik_projekt_path, config.current_workstation)
+        copy_current_session_files(
+            config.logik_projekt_path,
+            config.current_workstation
+        )
 
         logger.info("PROJEKT creation logic executed.")
 

@@ -10,7 +10,7 @@
 set -e           # Exit on any errors
 # set -u           # Exit if any variable is used without being defined
 # set -o pipefail  # Exit if any command in a pipeline fails
-# set -x           # Print each command before execution
+set -x           # Print each command before execution
 
 # -------------------------------------------------------------------------- #
 # Detect Operating System
@@ -78,18 +78,18 @@ program_name_uc=$(echo "$program_name" | tr '[:lower:]' '[:upper:]')
 # Get the directory of this script
 this_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# Find bin_dir in the path of this_dir
-bin_dir="${this_dir%/bin/*}"
+# Find scripts_dir in the path of this_dir
+scripts_dir="${this_dir%/scripts/*}"
 
 # Export the variables
-export this_script program_name program_name_uc this_dir bin_dir
+export this_script program_name program_name_uc this_dir scripts_dir
 
 # -------------------------------------------------------------------------- #
 # Path Discovery Functions for Repository
 # -------------------------------------------------------------------------- #
 
-# Define repo_dir as the parent directory of bin_dir
-repo_dir=$(dirname "$bin_dir")
+# Define repo_dir as the parent directory of scripts_dir
+repo_dir=$(dirname "$scripts_dir")
 
 # Get the name of the repo_dir
 repo_name=$(basename "$repo_dir")
@@ -111,10 +111,10 @@ prefs_dir="$repo_dir/prefs"
 # Imports - common
 # -------------------------------------------------------------------------- #
 
-source "$repo_dir/src/common/create/create-banners.sh"
-source "$repo_dir/src/common/create/create-logs.sh"
-source "$repo_dir/src/common/create/create-separators.sh"
-source "$repo_dir/src/common/create/create-timestamp.sh"
+source "$repo_dir/scripts/common/create/create-banners.sh"
+source "$repo_dir/scripts/common/create/create-logs.sh"
+source "$repo_dir/scripts/common/create/create-separators.sh"
+source "$repo_dir/scripts/common/create/create-timestamp.sh"
 
 # -------------------------------------------------------------------------- #
 # Imports - lib
